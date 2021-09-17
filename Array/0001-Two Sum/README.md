@@ -14,7 +14,7 @@ Output: [0,1]
 Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
-## Solving
+## Solution
 Use a Map to store checked element, loop through each element until find one in the Map equal to Target - CurrentElement.  
 
 
