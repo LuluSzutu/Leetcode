@@ -18,7 +18,9 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ## Solution
 Sorting and two-pointer
 
+## Submission
 Runtime: 80 ms, faster than 85.54% of JavaScript online submissions for 3Sum Closest.
 Memory Usage: 40.4 MB, less than 55.92% of JavaScript online submissions for 3Sum Closest.
+
 
 
