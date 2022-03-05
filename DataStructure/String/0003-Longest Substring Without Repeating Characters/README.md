@@ -11,6 +11,8 @@ Explanation: The answer is "abc", with the length of 3
 ```
 
 ## Solution
+Sliding Window Algorithm
+
 accumulate substring, find repeated character, restart the substring from the index of the first duplicated character plus 1. use Max keep tracking the longest substring.. 
 
 Runtime: 99 ms, faster than 87.64% of JavaScript online submissions for Longest Substring Without Repeating Characters.
