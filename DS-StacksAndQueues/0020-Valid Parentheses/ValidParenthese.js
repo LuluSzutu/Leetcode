@@ -8,23 +8,23 @@ var isValid = function(s) {
   bracketSets.set('{', '}');
   bracketSets.set('[', ']');
   
-  let queOpen = [];
+  let stackOpen = [];
   while (s.length > 0) {
     while (s[0] === '(' || s[0] === '[' || s[0] === '{' ) {
-      queOpen.push(s[0]);
+      stackOpen.push(s[0]);
       s = s.slice(1);
     }
     while (s[0] === ')' || s[0] === ']' || s[0] === '}' ) {
-      let ql = queOpen.length;
-      if (bracketSets.get(queOpen[ql-1]) != s[0]) {
+      let ql = stackOpen.length;
+      if (bracketSets.get(stackOpen[ql-1]) != s[0]) {
         return false;
       } else {
         s = s.slice(1);
-        queOpen = queOpen.slice(0,-1);
+        stackOpen = stackOpen.slice(0,-1);
       }    
     }
   }
-  if (queOpen.length === 0) {
+  if (stackOpen.length === 0) {
     return true;
   } else {
     return false;
