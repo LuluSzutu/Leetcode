@@ -299,8 +299,11 @@ class HashTable {
 |--------|:--------|:--------|:-------|:-------|
 |  0706  | Design HashSet |          | |
 |  0705  | Design HashMap |          | |
-|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two_Sum.md) | [Leetcode](https://leetcode.com/problems/two-sum/)
-|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer_to_Roman.md)| [Leetcode](https://leetcode.com/problems/integer-to-roman/)
-|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman_to_Integer.md)| [Leetcode](https://leetcode.com/problems/roman-to-integer/) |
+|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two_Sum.md) | [Leetcode 1](https://leetcode.com/problems/two-sum/)
+|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer_to_Roman.md)| [Leetcode 12](https://leetcode.com/problems/integer-to-roman/)
+|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman_to_Integer.md)| [Leetcode 13](https://leetcode.com/problems/roman-to-integer/) |
+|  0041  | First Missing Positive |  using Hash function   | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman_to_Integer.md)| [Leetcode 41](https://leetcode.com/problems/first-missing-positive/) |
+|  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest_Consecutive_Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+
 
 
