@@ -1,4 +1,4 @@
-#13 Roman to Integer
+# 13. Roman to Integer
 
 ## Problem
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -40,7 +40,52 @@ Given a roman numeral, convert it to an integer.
   rMap.set('CD', 400);
   rMap.set('CM', 900);
 ```
+Using hashtable store the integer and roman symbol pair, find the value of each symbol and add it up.
+
+```dash
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var romanToInt = function(s) {
+  let intArr = [];
+  let rMap = new Map();
+  rMap.set('I',1);
+  rMap.set('V',5);
+  rMap.set('X',10);
+  rMap.set('L',50);
+  rMap.set('C',100);
+  rMap.set('D',500);
+  rMap.set('M',1000);
+  rMap.set('IV', 4);
+  rMap.set('IX', 9);
+  rMap.set('XL', 40);
+  rMap.set('XC', 90);
+  rMap.set('CD', 400);
+  rMap.set('CM', 900);
+  
+  for (let i = 0; i < s.length; i++) {
+    let subStr = s[i] + s[i+1];
+    if(rMap.get(subStr) != undefined) {
+      intArr.push(rMap.get(subStr));
+      i++;
+    } else {
+      intArr.push(rMap.get(s[i]));
+    }      
+  }
+  
+  let result = 0;
+  for (let j = 0; j < intArr.length; j++) {
+    let digit = intArr[j];
+    result += digit;
+  }
+  
+  return result;
+};
+```
+**Time:** O(n);
+**Space:** O(1);
+
+Sucess:
 Runtime: 227 ms, faster than 39.59% of JavaScript online submissions for Roman to Integer.
 Memory Usage: 50.2 MB, less than 10.55% of JavaScript online submissions for Roman to Integer.
-
-

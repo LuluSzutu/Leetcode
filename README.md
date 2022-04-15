@@ -295,11 +295,12 @@ class HashTable {
 
 #### Leetcode Exercises
 
-| No.    | Title   | Solution |
-|--------|:--------|:---------|
-|  0001  | Two Sum |          |
-|  0003  | Longest Substring Without Repeating Characters |          |
-|  0012  | Integer to Roman |          |
-|  0013  | Roman to Integer |          |
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|  0706  | Design HashSet |          | |
+|  0705  | Design HashMap |          | |
+|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two_Sum.md) | [Leetcode](https://leetcode.com/problems/two-sum/)
+|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer_to_Roman.md)| [Leetcode](https://leetcode.com/problems/integer-to-roman/)
+|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman_to_Integer.md)| [Leetcode](https://leetcode.com/problems/roman-to-integer/) |
 
 
