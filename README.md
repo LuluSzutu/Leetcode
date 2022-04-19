@@ -299,11 +299,13 @@ class HashTable {
 |--------|:--------|:--------|:-------|:-------|
 |  0706  | Design HashSet |          | |
 |  0705  | Design HashMap |          | |
-|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two_Sum.md) | [Leetcode 1](https://leetcode.com/problems/two-sum/)
-|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer_to_Roman.md)| [Leetcode 12](https://leetcode.com/problems/integer-to-roman/)
-|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman_to_Integer.md)| [Leetcode 13](https://leetcode.com/problems/roman-to-integer/) |
-|  0030  | Substring with Concatenation of All Words |  use hashtable to record each word and the times it appear + sliding window     | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0030-Roman_to_Integer.md)| [Leetcode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
-|  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest_Consecutive_Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two-Sum.md) | [Leetcode 1](https://leetcode.com/problems/two-sum/)
+|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer-to-Roman.md)| [Leetcode 12](https://leetcode.com/problems/integer-to-roman/)
+|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman-to-Integer.md)| [Leetcode 13](https://leetcode.com/problems/roman-to-integer/) |
+|  0030  | Substring with Concatenation of All Words |  use hashtable to record each word and the times it appear + sliding window     | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0030-Substring-with-Concatenation-of-All-Words.md)| [Leetcode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
+|  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest-Consecutive-Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+
+
 
 
 
