@@ -3,7 +3,7 @@
 ###   LuLuSzutu
 ## <center>Volume I Data Structures</center>
 
-### Chapter 1 Hash Tables
+### <center>Chapter 1 Hash Tables</center>
 A hash table (often called a hash map) is a data structure that maps keys to values. Hash tables combine search, insert, and delete operations in an efficient way. 
 
  HASH TABLE TIME/SPACE COMPLEXITY IN BIG O NOTATION
