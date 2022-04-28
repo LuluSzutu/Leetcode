@@ -305,7 +305,15 @@ class HashTable {
 |  0030  | Substring with Concatenation of All Words |  use hashtable to record each word and the times it appear + sliding window     | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0030-Substring-with-Concatenation-of-All-Words.md)| [Leetcode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
 |  0049  | Group Anagrams |  use hashtable to store "sorted" string in order to check anagram | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0049-Group-Anagrams.md)| [Leetcode 49](https://leetcode.com/problems/group-anagrams/) |
 |  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest-Consecutive-Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
-
+|  0149  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/)| [Leetcode /) |
+|  0187  | Repeated DNA Sequences | hashtable + sliding window / two Sets is the fasted solution  | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0187-Repeated-DNA-Sequences.md)| [Leetcode 187](https://leetcode.com/problems/repeated-dna-sequences/) |
+|  0202  | Happy Number | hashtable to check repeated sum | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0202-Happy-Number.md)| [Leetcode 202](https://leetcode.com/problems/happy-number/) |
+|  0205  | Isomorphic Strings |  hashtable map s[i] to t[i]    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0205-Isomorphic-Strings.md)| [Leetcode 205](https://leetcode.com/problems/isomorphic-strings/) |
+|  0217  | Contains Duplicate | hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0217-Contains-Duplicate.md)| [Leetcode 217](https://leetcode.com/problems/contains-duplicate/) |
+|  0219  | Contains Duplicate II | map key nums[i], value i | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0219-Contains-Duplicate-II.md)| [Leetcode 219](https://leetcode.com/problems/contains-duplicate-ii/) |
+|  0242  | | | | |
+|  0290  | | | | |
+|  0299  | | | | |
 
 
 
