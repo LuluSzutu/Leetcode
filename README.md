@@ -316,6 +316,42 @@ class HashTable {
 |  0299  | | | | |
 
 
+### <center>Chapter 2 Strings and Arrays </center>
+
+### <center>Chapter 3 Sets</center>
+
+### <center>Chapter 4 Stack and Queues</center>
+
+### <center>Chapter 5 Linked List</center>
+
+### <center>Chapter 6 Caching</center>
+
+### <center>Chapter 7 Trees</center>
+
+### <center>Chapter 8 Heaps</center>
+
+### <center>Chapter 9 Graphs</center>
+
+
+## <center>Volume II Algorithms</center>
+
+### <center>Chapter 1 Bit Manipulation</center>
+
+### <center>Chapter 2 Math</center>
+
+### <center>Chapter 3 Searching</center>
+
+### <center>Chapter 4 Sorting</center>
+
+### <center>Chapter 5 Greedy Algorithms </center>
+
+### <center>Chapter 6 Divide and Conquer</center>
+
+### <center>Chapter 7 Dynamic Programming</center>
+
+
+
+
 
 
 
