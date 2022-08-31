@@ -295,6 +295,7 @@ class HashTable {
 
 #### Leetcode Exercises
 
+<<<<<<< HEAD
 | No.    | Title                                     | Discuss                                                                    | Solution                                                                                                                             | Leedcode Link                                                                           |
 |--------|:------------------------------------------|:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
 |  0706  | Design HashSet                            |                                                                            |                                                                                                                                      |
@@ -314,23 +315,229 @@ class HashTable {
 |  0242  | Valid Anagram                             | map key letter, value number_of_letter                                     | [JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter1--HashTable/0242-Valid-Anagram.md)                             | [Leetcode 242](https://leetcode.com/problems/valid-anagram/)                            |
 |  0290  |                                           |                                                                            |                                                                                                                                      |                                                                                         |
 |  0299  |                                           |                                                                            |                                                                                                                                      |                                                                                         |
+=======
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|  0706  | Design HashSet |          | |
+|  0705  | Design HashMap |          | |
+|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two-Sum.md) | [Leetcode 1](https://leetcode.com/problems/two-sum/)
+|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer-to-Roman.md)| [Leetcode 12](https://leetcode.com/problems/integer-to-roman/)
+|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman-to-Integer.md)| [Leetcode 13](https://leetcode.com/problems/roman-to-integer/) |
+|  0030  | Substring with Concatenation of All Words |  use hashtable to record each word and the times it appear + sliding window     | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0030-Substring-with-Concatenation-of-All-Words.md)| [Leetcode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
+|  0049  | Group Anagrams |  use hashtable to store "sorted" string in order to check anagram | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0049-Group-Anagrams.md)| [Leetcode 49](https://leetcode.com/problems/group-anagrams/) |
+|  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest-Consecutive-Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+|  0149  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/)| [Leetcode /) |
+|  0187  | Repeated DNA Sequences | hashtable + sliding window / two Sets is the fasted solution  | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0187-Repeated-DNA-Sequences.md)| [Leetcode 187](https://leetcode.com/problems/repeated-dna-sequences/) |
+|  0202  | Happy Number | hashtable to check repeated sum | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0202-Happy-Number.md)| [Leetcode 202](https://leetcode.com/problems/happy-number/) |
+|  0205  | Isomorphic Strings |  hashtable map s[i] to t[i]    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0205-Isomorphic-Strings.md)| [Leetcode 205](https://leetcode.com/problems/isomorphic-strings/) |
+|  0217  | Contains Duplicate | hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0217-Contains-Duplicate.md)| [Leetcode 217](https://leetcode.com/problems/contains-duplicate/) |
+|  0219  | Contains Duplicate II | map key nums[i], value i | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0219-Contains-Duplicate-II.md)| [Leetcode 219](https://leetcode.com/problems/contains-duplicate-ii/) |
+|  0242  | | | | |
+|  0290  | | | | |
+|  0299  | | | | |
+>>>>>>> 662f789e3123a2ccaf8dd01b250cdbd53dbdf857
 
 ### <center>Chapter 2 Strings and Arrays </center>
 
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|0002|	Add Two Numbers	
+
 ### <center>Chapter 3 Sets</center>
+A set is a group of unordered unique (no duplicate) elements.
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|0002|	Add Two Numbers	
 
 ### <center>Chapter 4 Stack and Queues</center>
 
+#### Stack: LIFO (last-in first-out)
+Insert to stack:   ``` push() ```
+
+Delete: ``` pop() ```
+
+#### Queue: FIFO (first-in first-out)
+Insert to Queue:  ``` push() ```
+
+Delete: ``` shift() ``` # Remove the element at zero indexes. 
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|0002|	Add Two Numbers	
+
 ### <center>Chapter 5 Linked List</center>
+A linked list is a data structure in which each node points to another node. Each node include one data value, and  a prev and/or next pointer that point to another node. There are two types of linked lists -- singly linked list and doubly linked list. 
+For all linked list questions, remember to check the null pointer and update the head and tail pointer if necessary. Using while-loop or recursion method to go through the linked list. 
+
+#### 1. Singly linked list
+
+```dash
+function ListNode(val, next) {
+   this.val = (val===undefined ? 0 : val)
+   this.next = (next===undefined ? null : next)
+}
+```
+
+```dash
+while(currentList.next) {
+
+...
+currentList = currentList.next;
+
+# for deletion
+currentList = currentList.next.next;
+...
+
+}
+```
+
+####2. Doubly linked list
+
+```dash
+function ListNode(val,prev,next,child) {
+    this.val = val;
+    this.prev = prev;
+    this.next = next;
+};
+```
+
+#### Leetcode Exercises
+
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|0002|	Add Two Numbers	
+|0019| Remove Nth Node From End of Lis	
+|0021| Merge Two Sorted Lists	
+|0023|	Merge k Sorted Lists	
+|0024|	Swap Nodes in Pairs	
+|0025|	Reverse Nodes in k-Group	
+|0061|	Rotate List	
+|0082|	Remove Duplicates from Sorted List II
+|0083| Remove Duplicates from Sorted Li
+|0086|	Partition List	
+|0092|	Reverse Linked List II	
+|0109|	Convert Sorted List to Binary Search Tree
+|0114| Flatten Binary Tree to Linked List
+|0116|	Populating Next Right Pointers in Each Node
+|0138|	Copy List with Random Pointer	
+|0141|	Linked List Cycle	
+|0142|	Linked List Cycle II	
+|0143|	Reorder List	
+|0147|	Insertion Sort List	
+|0148|	Sort List	
+|0160|	Intersection of Two Linked Lists	
+|0203|	Remove Linked List Elements	
+|0206|	Reverse Linked List	
+|0234|	Palindrome Linked List	
+|0237|	Delete Node in a Linked List	
+|0328|	Odd Even Linked List	
+|0382|	Linked List Random Node	
+|0445|	Add Two Numbers II	
 
 ### <center>Chapter 6 Caching</center>
 
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+
 ### <center>Chapter 7 Trees</center>
+#### Tree
+A tree is a data structure has one root node and multiple child nodes, each child node has multiple sub-child nodes, and so on. 
+
+```dash
+function TreeNode(value) { 
+  this.value = value; 
+  this.children = [];
+}
+```
+#### Binary Trees
+A binary tree is a type of tree that has only two children nodes: left and right.
+
+```dash
+function BinaryTreeNode(value) {
+  this.value = value; 
+  this.left = null; 
+  this.right = null;
+}
+```
+#### Binary Search Trees
+A binary search tree is a :
+
+1. binary tree
+2. the left child is smaller than the parent, and the right child is bigger than the parent 
+3. the value not the same
+
+#### Complete Binary Trees
+A complete binary tree is a binary tree that every level of the tree is fully filled, except for the leaves level. 
+
+#### Full Binary trees
+A full binary tree is a binary tree that each node has either 0 or 2 children. 
+
+#### Tree Traversal
+•	Pre-order traversal: root->left->right
+
+•	Post-order traversal: left->right->root
+
+•	In-order traversal: left->root->right
+
+•	Level-order traversal: breath-first-search, using queue and recursion
+
+#### AVL Trees
+#### Red-black Trees
+#### Tries (Prefix Trees)
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|94|
+|144|
+|145|
+|105|
+|106|
+|889|
+|102|
+|103|
+|107|
+|100|
+|101|
+|226|
+
+Binary Search Tree
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|98|
+|99|
+|173|
+|669|
+|701|
+|450|
+|700|
 
 ### <center>Chapter 8 Heaps</center>
 
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+
 ### <center>Chapter 9 Graphs</center>
 
+1.	Directed/UnDirected Graph
+2.	Adjacent List / Adjacent Matrix
+In an undirected graph, an adjacency matrix will be symmetric. In a directed graph, it will not. 
+3.	Graph Traversal:  BFS, DFS
+Breadth-first search and depth-first search tend to be used in different scenarios. DFS is often preferred if we want to visit every node in the graph. Both will work just fine, but depth-first search is a bit simpler.
+However, if we want to find the shortest path (or just any path) between two nodes, BFS is generally better. Consider representing all the friendships in the entire world in a graph and trying to find a path of friend
+
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
 
 ## <center>Volume II Algorithms</center>
 
@@ -342,11 +549,13 @@ class HashTable {
 
 ### <center>Chapter 4 Sorting</center>
 
-### <center>Chapter 5 Greedy Algorithms </center>
+### <center>Chapter 5 Two Pointers </center>
 
-### <center>Chapter 6 Divide and Conquer</center>
+### <center>Chapter 6 Greedy Algorithms </center>
 
-### <center>Chapter 7 Dynamic Programming</center>
+### <center>Chapter 7 Divide and Conquer</center>
+
+### <center>Chapter 8 Dynamic Programming</center>
 
 
 
