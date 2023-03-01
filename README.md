@@ -1,9 +1,43 @@
 # <center>Leetcode Handbook in Javascript</center>
-###  A preparation guide for non-CS major student
-###   LuLuSzutu
+###  <center>A preparation guide for non-CS major student</center>
+###   <center>LuLuSzutu</center>
+
+<div style="page-break-after: always;"></div>
+
+# Table of Contents
+[Volume I Data Structures](#id-volume1)<br/>
+
+[Chapter 1 Hash Tables](#id-chapter1)<br/>
+[Chapter 2 Strings and Arrays](#id-chapter2)<br/>
+[Chapter 3 Sets](#id-chapter3)<br/>
+[Chapter 4 Stack and Queues](#id-chapter4)<br/>
+[Chapter 5 Linked List](#id-chapter5)<br/>
+[Chapter 6 Caching](#id-chapter6)<br/>
+[Chapter 7 Trees](#id-chapter7)<br/>
+[Chapter 8 Heaps](#id-chapter8)<br/>
+[Chapter 9 Graphs](#id-chapter9)<br/>
+
+[Volume II Algorithms](#id-volume2)<br/>
+
+[Chapter 1 Bit Manipulation](#id-chapter11)<br/>
+[Chapter 2 Math](#id-chapter12)<br/>
+[Chapter 3 Searching](#id-chapter13)<br/>
+[Chapter 4 Sorting](#id-chapter14)<br/>
+[Chapter 5 Two Pointers](#id-chapter15)<br/>
+[Chapter 6 Greedy Algorithms](#id-chapter16)<br/>
+[Chapter 7 Divide and Conquer](#id-chapter17)<br/>
+[Chapter 8 Dynamic Programming](#id-chapter18)<br/>
+
+<div style="page-break-after: always;"></div>
+
 ## <center>Volume I Data Structures</center>
 
+<div style="page-break-after: always;"></div>
+
+<div id='id-chapter1'/>
+
 ### <center>Chapter 1 Hash Tables</center>
+
 A hash table (often called a hash map) is a data structure that maps keys to values. Hash tables combine search, insert, and delete operations in an efficient way. 
 
  HASH TABLE TIME/SPACE COMPLEXITY IN BIG O NOTATION
@@ -295,7 +329,6 @@ class HashTable {
 
 #### Leetcode Exercises
 
-<<<<<<< HEAD
 | No.    | Title                                     | Discuss                                                                    | Solution                                                                                                                             | Leedcode Link                                                                           |
 |--------|:------------------------------------------|:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
 |  0706  | Design HashSet                            |                                                                            |                                                                                                                                      |
@@ -314,35 +347,96 @@ class HashTable {
 |  0219  | Contains Duplicate II                     | map key nums[i], value i                                                   | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0219-Contains-Duplicate-II.md)                     | [Leetcode 219](https://leetcode.com/problems/contains-duplicate-ii/)                    |
 |  0242  | Valid Anagram                             | map key letter, value number_of_letter                                     | [JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter1--HashTable/0242-Valid-Anagram.md)                             | [Leetcode 242](https://leetcode.com/problems/valid-anagram/)                            |
 |  0290  |                                           |                                                                            |                                                                                                                                      |                                                                                         |
-|  0299  |                                           |                                                                            |                                                                                                                                      |                                                                                         |
-=======
-| No.    | Title   | Discuss | Solution | Leedcode Link |
-|--------|:--------|:--------|:-------|:-------|
-|  0706  | Design HashSet |          | |
-|  0705  | Design HashMap |          | |
-|  0001  | Two Sum |   hash table + (two pointer) | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0001-Two-Sum.md) | [Leetcode 1](https://leetcode.com/problems/two-sum/)
-|  0012  | Integer to Roman |  greedy / hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0012-Integer-to-Roman.md)| [Leetcode 12](https://leetcode.com/problems/integer-to-roman/)
-|  0013  | Roman to Integer |  hashtable      | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0013-Roman-to-Integer.md)| [Leetcode 13](https://leetcode.com/problems/roman-to-integer/) |
-|  0030  | Substring with Concatenation of All Words |  use hashtable to record each word and the times it appear + sliding window     | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0030-Substring-with-Concatenation-of-All-Words.md)| [Leetcode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |
-|  0049  | Group Anagrams |  use hashtable to store "sorted" string in order to check anagram | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0049-Group-Anagrams.md)| [Leetcode 49](https://leetcode.com/problems/group-anagrams/) |
-|  0128  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0128-Longest-Consecutive-Sequence.md)| [Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/) |
-|  0149  | Longest Consecutive Sequence | use hashtable as a dictionary / also can use Set    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/)| [Leetcode /) |
-|  0187  | Repeated DNA Sequences | hashtable + sliding window / two Sets is the fasted solution  | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0187-Repeated-DNA-Sequences.md)| [Leetcode 187](https://leetcode.com/problems/repeated-dna-sequences/) |
-|  0202  | Happy Number | hashtable to check repeated sum | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0202-Happy-Number.md)| [Leetcode 202](https://leetcode.com/problems/happy-number/) |
-|  0205  | Isomorphic Strings |  hashtable map s[i] to t[i]    | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0205-Isomorphic-Strings.md)| [Leetcode 205](https://leetcode.com/problems/isomorphic-strings/) |
-|  0217  | Contains Duplicate | hashtable | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0217-Contains-Duplicate.md)| [Leetcode 217](https://leetcode.com/problems/contains-duplicate/) |
-|  0219  | Contains Duplicate II | map key nums[i], value i | [JS solution](https://github.com/LuluSzutu/Leetcode/blob/main/Chapter1--HashTable/0219-Contains-Duplicate-II.md)| [Leetcode 219](https://leetcode.com/problems/contains-duplicate-ii/) |
-|  0242  | | | | |
-|  0290  | | | | |
-|  0299  | | | | |
->>>>>>> 662f789e3123a2ccaf8dd01b250cdbd53dbdf857
+|  0299  |                                           |                                                                            |                                                                                                                                      |      
+|  0020  |                                                                                   |
+
+<div id='id-chapter2'/>
 
 ### <center>Chapter 2 Strings and Arrays </center>
+
+#### 2.1 Strings
+
+Basic Functions:
+
+| Function   | Usage  | 
+|--------|:--------|
+|**charAt(index)** | A single character at index | 
+|**substring(start,end)**|	Sub string from [start_index, ... end_index) | 
+|**indexOf(str, start_index)** | Get index of the sub_string that start from the start_index  |
+|**split(delimiter)**| Breaks a string into an array with specified delimiter |
+|**replace(original, new)** | Replace original with new |
+
+Common Interview Questions:
+
+
+1. **Substring**
+   Sliding window is the best algorithm can be used to solve substring problems. 
+   
+2. **Palindromic Substrings -- A string is palindromic if it reads the same forward and backward.**
+   
+   For palindromic substring questions, first we should think about using two-pointers, treat each character as the mid-character and check its both side neighbors to be identical. 
+
+2. **String Permutation -- A permutation is a rearrangement of letters.**
+
+    
+
+3. **Anagram String -- An Anagram is a string formed by rearranging the letters.**
+
+   For anagram string, 
+
+3. 
+4. **Isomorphic String -- **
+5. 
+
+#### Leetcode Exercises
+| No.    | Title   | Discuss | Solution | Leedcode Link |
+|--------|:--------|:--------|:-------|:-------|
+|0003| Longest Substring Without Repeating Characters | sliding window  |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0003-Longest-Substring-Without-Repeating-Characters.md)| [Leetcode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+|0006| Zigzag Conversion | math |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0006-Zigzag-Conversion.md) | [Leetcode 6](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+|0014| | | | |
+|0017| | | | |
+|0028|
+||
+|0005| Longest Palindromic Substring | two pointers |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0005-Longest-Palindromic-Substring.md)  | [Leetcode 6](https://leetcode.com/problems/zigzag-conversion/) |
+|0125| Valid Palindrome | two pointers |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0125-Valid-Palindrome.md) | [Leetcode 125](https://leetcode.com/problems/valid-palindrome/) |
+|0409| Longest Palindromic Substring | HashTable + math |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0409-Longest-Palindrome.md)| [Leetcode 409](https://leetcode.com/problems/longest-palindrome/) |
+|0647| Palindromic Substrings | two pointers |[JS solution](https://github.com/LuluSzutu/Leetcode/tree/main/Chapter2--StringsAndArrays/0647-Palindromic-Substrings.md)| [Leetcode 647](https://leetcode.com/problems/palindromic-substrings/) |
+||
+|0022|
+||
+|0049|
+|0242|
+||
+|0205|
+|0008|  |  | | [Leetcode 8](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+
+
+	
+
+#### 2.2. Arrays
+
+Different from HastTable, arrays are inherently ordered, start with index 0. In Java, C++, arrays are fixed length, you need to define the size before using it; but in Javascript, the array grow as you append items. And in Javascipt, you can assign to an index that is larger then the current array lenth, which will automatically expend the current array. In some other languages, there have both array and list, but in Javascript, array and list are combined. 
+
+Basic Functions:
+
+| Function   | Usage  | Result | 
+|--------|:--------|:--------|
+|**concat(a,b,c)** |Add elements to arrray | return [array, a,b,c] |
+|**slice(start,end)**|	Subarray | return [start_index, .... end_index) |
+|**splice(start, num_of_elems_to_remove, elems_to_add)** | Adding or Removing Elements at Any Position | |
+|**fill("a")**| Filling an Array with a specific value | return ["a", "a",.."a"] |
+|**sort()** | Sorting Array  | |
+|**reverse()** | Reverse Array | |
+|**map( x => x * 10)**  | Array Transformation | return [100x1, 100x2,...]  |
+|**filter(x => x > 100)** | Array Filtering | return array value over 100  |
+|**reduce((a,b) => a += b)** | Array Accumulator | return sum of the array  |
 
 #### Leetcode Exercises
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
 |0002|	Add Two Numbers	
+
+<div id='id-chapter3'/>
 
 ### <center>Chapter 3 Sets</center>
 A set is a group of unordered unique (no duplicate) elements.
@@ -351,6 +445,8 @@ A set is a group of unordered unique (no duplicate) elements.
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
 |0002|	Add Two Numbers	
+
+<div id='id-chapter4'/>
 
 ### <center>Chapter 4 Stack and Queues</center>
 
@@ -368,6 +464,8 @@ Delete: ``` shift() ``` # Remove the element at zero indexes.
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
 |0002|	Add Two Numbers	
+
+<div id='id-chapter5'/>
 
 ### <center>Chapter 5 Linked List</center>
 A linked list is a data structure in which each node points to another node. Each node include one data value, and  a prev and/or next pointer that point to another node. There are two types of linked lists -- singly linked list and doubly linked list. 
@@ -438,11 +536,15 @@ function ListNode(val,prev,next,child) {
 |0382|	Linked List Random Node	
 |0445|	Add Two Numbers II	
 
+<div id='id-chapter6'/>
+
 ### <center>Chapter 6 Caching</center>
 
 #### Leetcode Exercises
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
+
+<div id='id-chapter7'/>
 
 ### <center>Chapter 7 Trees</center>
 #### Tree
@@ -519,11 +621,15 @@ Binary Search Tree
 |450|
 |700|
 
+<div id='id-chapter8'/>
+
 ### <center>Chapter 8 Heaps</center>
 
 #### Leetcode Exercises
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
+
+<div id='id-chapter9'/>
 
 ### <center>Chapter 9 Graphs</center>
 
@@ -539,23 +645,47 @@ However, if we want to find the shortest path (or just any path) between two nod
 | No.    | Title   | Discuss | Solution | Leedcode Link |
 |--------|:--------|:--------|:-------|:-------|
 
+<div id='id-volume2'/>
+
 ## <center>Volume II Algorithms</center>
+
+<div id='id-chapter11'/>
 
 ### <center>Chapter 1 Bit Manipulation</center>
 
+<div id='id-chapter12'/>
+
 ### <center>Chapter 2 Math</center>
+
+<div id='id-chapter13'/>
 
 ### <center>Chapter 3 Searching</center>
 
+<div id='id-chapter14'/>
+
 ### <center>Chapter 4 Sorting</center>
+
+<div id='id-chapter15'/>
 
 ### <center>Chapter 5 Two Pointers </center>
 
+<div id='id-chapter16'/>
+
 ### <center>Chapter 6 Greedy Algorithms </center>
+
+<div id='id-chapter17'/>
 
 ### <center>Chapter 7 Divide and Conquer</center>
 
+<div id='id-chapter18'/>
+
 ### <center>Chapter 8 Dynamic Programming</center>
+
+
+## <center>Volume III Appendix</center>
+
+
+
 
 
 
