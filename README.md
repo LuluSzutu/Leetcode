@@ -1,5 +1,5 @@
-<div align="center">
-# Leetcode Handbook in Javascript
+# <div align="center">
+Leetcode Handbook in Javascript
 </div>
 ###  <center>A preparation guide for non-CS major student</center>
 ###   <center>LuLuSzutu</center>
